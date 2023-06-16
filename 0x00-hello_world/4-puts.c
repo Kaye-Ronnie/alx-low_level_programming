@@ -1,6 +1,5 @@
 #include <stdio.h>
-/*
- *first line tells program to include stdio libarary
+/**
 * main - print the string in the put function
 * *
 * * Description: using the main function
