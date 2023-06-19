@@ -9,7 +9,7 @@
 int main(void)
 {
 char rev_c;
-for (rev_c = 'z';rev_c >= 'a';rev_c--)
+for (rev_c = 'z'; rev_c >= 'a'; rev_c--)
 {
 putchar(rev_c);
 }
