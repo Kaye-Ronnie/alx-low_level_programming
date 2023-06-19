@@ -9,11 +9,12 @@
 int main(void)
 {
 	char num16;
-	for (num16 ='0'; num16 <='9'; num16++)
+
+	for (num16 = '0'; num16 <= '9'; num16++)
 	{
 		putchar(num16);
 	}
-	for (num16 ='a'; num16 <='f'; num16++)
+	for (num16 = 'a'; num16 <= 'f'; num16++)
 	{
 		putchar(num16);
 	}	
