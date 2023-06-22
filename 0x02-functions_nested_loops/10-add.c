@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** add two values
+/**
+ * add function: suming two values
  * num1: first value
  * num2; second value
  * return their sum
