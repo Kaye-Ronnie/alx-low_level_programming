@@ -5,18 +5,16 @@
  */
 void more_numbers(void)
 {
-	int n, t;
+	int a, b;
 
-	for (t = 0; t <= 10; t++)
+	for (b = 0; b < 10; b++)
 	{
-		for (n = 0; n <= 14; n++)
+		for (a = 0; a <= 14; a++)
 		{
-			if (n >= 10)
-			{
-				_putchar('t');
-				_putchar(n % 10 + '0');
-			}
-			_putchar('\n');
+			if (a > 9)  /* If the number is two digits */
+			_putchar('0' + a / 10); /* Print the tens digit */
+			_putchar('0' + a % 10); /* Print the ones digit */
 		}
+	_putchar('\n');
 	}
 }
