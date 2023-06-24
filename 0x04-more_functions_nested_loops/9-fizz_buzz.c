@@ -25,11 +25,11 @@ int main(void)
 		}
 		else
 		{
-			Printf("%i", num);
+			printf("%i", num);
 		}
 		if (num < 100)
 			printf(" ");
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
