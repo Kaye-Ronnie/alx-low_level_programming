@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * rev_string - function that reverses a string.
  * @s: declaration of *s and paramters for the function
@@ -6,18 +7,18 @@
  */
 void rev_string(char *s)
 {
-	int length, z, half;
-	char temp;
+	int f, r_s;
+	char character;
 
-	for ( length = 0; s[length] != '\0'; length++)
-		;
-	z=0;
-	half = length/z;
-	while (half--)
+	for (f = '\0'; s[f] != 0; f++)
 	{
-		temp =s[length-z-1];
-		s[length-z-1]=s[z];
-		s[z]=temp;
-		z++;
+	}
+	r_s = 0;
+	for (f = f - 1; r_s < f; r_s++)
+	{
+		character = s[f];
+		s[f] = s[r_s];
+		s[r_s] = character;
+		f--;
 	}
 }
