@@ -19,6 +19,8 @@ str[0] = str[0] - 32;
 if (str[index] == ' ' || str[index] == '\t' ||
 str[index] == '\n' ||
 str[index] == ',' ||
+str[index] == '.' ||
+str[index] == '.' ||
 str[index] == ';' ||
 str[index] == '!' ||
 str[index] == '?' ||
